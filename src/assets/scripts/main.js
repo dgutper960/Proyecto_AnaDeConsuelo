@@ -10,7 +10,4 @@
  * Write any other JavaScript below
  */
 
-+( function() {
-  const university = "UOC";
-  console.log(`Hello, ${university}!`);
-} )();
+console.log("Welcome to: Web Ana de Consuelo");
