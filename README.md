@@ -1,8 +1,51 @@
-# UOC Boilerplate
+# Web Ana de Consuelo
 
-UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
-
-This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
+Tipo de web
+Se trata de una página web para una pastelería artesanal, la
+que es un pequeño negocio familiar, ubicado en un pueblo de la
+sierra de Cádiz.
+Esta web muestra diferentes apartados en su menú de navegación
+como pueden ser:
+- Quienes somos: Una descripción general de la pastelería
+como tal y su trayectoria, así como el equipo que la
+regenta y una presentación de sus productos estrella más
+tradicionales.
+- Catálogo: El apartado más importante de la web.
+Totalmente centrado en mostrar al visitante un gran
+surtido de imágenes con los productos disponibles, una
+breve descripción, ingredientes e información sobre
+alérgenos.
+- Encargos: Zona destinada a realizar encargos con un
+asistente por IA.
+- Formulario de contacto: Un simple formulario de contacto.
+- Ubicación: Muestra un área conectada a la API de Google
+Maps con opción de cargar la propia app de Google.
+La web, está principalmente destinada a que el visitante pueda
+ver la oferta de productos que la pastelería ofrece, hacerse
+cliente y gestionar encargos.
+Otro propósito, es que el usuario pueda familiarizarse con los
+productos más icónicos y tradicionales de la repostería de la
+zona, así como, consultar información de interés.
+Por los tanto, nos encontramos ante una web que combina los
+siguientes tipos:
+- Web corporativa:
+Representa a la empresa, proporcionando información sobre
+su identidad, historia, valores, productos, equipo de
+trabajo y cualquier otra información relevante que pueda
+interesar al público en general. Este sitio web tiene
+como objetivo principal establecer la presencia en línea
+de la entidad y transmitir una imagen profesional y
+coherente de su marca.
+ 
+- Tienda online:
+El sitio web estará diseñado para permitir a los usuarios
+comprar productos o servicios directamente a través de
+Internet. Los productos estarán organizados en categorías
+y se mostrarán imágenes, descripciones, precios, etc. Los
+usuarios pueden navegar por el catálogo, agregar
+productos a su carrito de compras, completar la
+transacción de pago, aunque solo se va a ofrecer la
+opción de recogida en tienda en la fecha indicada.
 
 ## Requirements
 
