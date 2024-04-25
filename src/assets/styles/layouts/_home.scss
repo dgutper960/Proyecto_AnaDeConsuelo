@@ -8,10 +8,11 @@ body {
   height: 100vh;
   margin: 0;
   padding: 2rem;
+  font-family: $font_montserrat;
   font-size: 16px;
   line-height: 24px;
-  background-color: rgb(250, 205, 211);
-  color: #010101;
+  background-color: $color_logo_fondo_ligth;
+  color: $color_fuente_primaria;
 }
 
 
