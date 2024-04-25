@@ -1,4 +1,6 @@
 @use "sass:color";
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playball&display=swap');
 
 // Colores Logo
 $color_logo_fondo: #fdf8d2;
@@ -13,4 +15,6 @@ $color_fondo: #FAFAFA;
 $color_fuente_primaria: #010101;
 $color_fuente_secundaria: #f0f0f0;
 
-
+// Fuentes
+$playball: 'Playball';
+$montserrat: 'Montserrat, sans-serif';
