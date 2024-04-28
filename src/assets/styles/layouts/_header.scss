@@ -1,0 +1,56 @@
+header {
+    height: 12vh;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    .header__zonaTitulo {
+        grid-column: 2 / 6;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 100%;
+
+        background-color: antiquewhite;
+    
+    
+        .header__zonaTitulo--logo {
+    
+            grid-column: 1 / 2;
+    
+            height: 12vh;
+    
+            background-color: aliceblue;
+    
+            #logo {
+                height: 100%;
+            }
+    
+        }
+    
+        .header__zonaTitulo--titulo{
+    
+            grid-column: 2 / 5;
+    
+            height: 12vh;
+    
+            background-color: lightblue;
+    
+            h1{
+                font-size: 2em;
+                font-family: $font_playball;
+            }
+        }
+    
+    }
+    
+    .header__zonaNav {
+        height: 12vh;
+        grid-column: 6 / 12;
+    
+        background-color: lightpink;
+    
+    }
+}
+
+
+
