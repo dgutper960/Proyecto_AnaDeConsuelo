@@ -4,13 +4,15 @@ header {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 
+    background-color: $color_logo_fondo;
+
     .header__zonaTitulo {
         grid-column: 2 / 6;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         height: 100%;
 
-        background-color: antiquewhite;
+        // background-color: antiquewhite;
 
 
         .header__zonaTitulo--logo {
@@ -21,7 +23,7 @@ header {
 
             height: 12vh;
 
-            background-color: aliceblue;
+            // background-color: aliceblue;
 
             #logo {
                 height: 100%;
@@ -39,7 +41,7 @@ header {
 
             height: 12vh;
 
-            background-color: lightblue;
+            // background-color: lightblue;
 
 
 
@@ -48,6 +50,7 @@ header {
                 // padding: 0;
                 font-size: 1.5em;
                 font-family: $font_montserrat;
+                color: $color_logo_lineas;
             }
 
             .tit_2 {
@@ -55,6 +58,7 @@ header {
                 // padding: 0;
                 font-size: 4em;
                 font-family: $font_playball;
+                color: $color_logo_lineas;
             }
         }
 
@@ -68,7 +72,7 @@ header {
         align-items: center;
         justify-content: space-evenly;
 
-        background-color: lightpink;
+        // background-color: lightpink;
 
     
             
@@ -89,7 +93,8 @@ header {
     
                 border-radius: 40%;
 
-                color: chocolate;
+                font-family: $font_playball;
+                color: $color_logo_lineas;
 
                 transition: 
                             background-color 0.5s ease-in-out, 
@@ -100,10 +105,15 @@ header {
 
             .header__zonaNav--item:hover{
 
-                background-color: chocolate;
-                color: black;
+                background-color: $color_logo_fuentes_light;
+                color: $color_fuente_primaria;
 
-                border-radius: 55%;
+                border-radius: 50%;
+
+                font-family: $font_playball;
+                font-size: 1em;
+
+                font-weight: bold;
 
             }
 
