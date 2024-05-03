@@ -32,7 +32,7 @@ header {
                 justify-content: center;
 
                 #logo{
-                    height: 96%;
+                    height: 94%;
                 }
 
             }
@@ -109,6 +109,7 @@ header {
 
         .header__zonaNav--item {
             text-decoration: none;
+            
             display: flex;
             align-items: center;
             justify-items: center;
@@ -126,9 +127,11 @@ header {
             font-weight: 500;
             color: $color_item_header_nav;
 
-            transition:
-                background-color 0.5s ease-in-out,
-                color 0.5s ease-in-out;
+            border-radius: 60%; // evita difuminado hacia el límite del item
+
+            // Añade transición sobre las propiedades deseadas
+            transition: box-shadow 0.3s ease-in, background-color 0.3s ease-in-out;
+
 
         }
 
@@ -141,7 +144,15 @@ header {
 
             font-weight: bold;
 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
         }
+
+        // Efecto de invertir sombra al hacer click
+        .header__zonaNav--item:active {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) inset; // Agrega "inset" para que la sombra sea interna
+        }
+        
 
     }
 }
