@@ -106,6 +106,4 @@ Always run the following commands during the development stage and for productio
 
 ## Need help? / Want to help out?
 
-Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
-
-Are you using this Boilerplate for your projects or for educational purposes? I would love to hear about it!
+You can contact the developer at gutperda.dev@gmail.com.
