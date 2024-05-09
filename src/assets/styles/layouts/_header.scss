@@ -148,24 +148,47 @@
 }
 
 // Plantillas para estilos responsivos
+
 // Estilos para pantallas grandes (mayores de 1200px)
+@media (min-width: 1200px) {
 
-// @media (min-width: 1200px) {
-//     .header {
-//         // Ajusta los estilos para pantallas grandes aquí
-//     }
-// }
 
-// // Estilos para pantallas medianas (entre 992px y 1199px) *
-// @media (min-width: 992px) and (max-width: 1199px) {
-//     .header {
-//         // Ajusta los estilos para pantallas medianas aquí
-//     }
-// }
+    .title_2 {
+        font-size: 2.75rem;
+    }
 
-// // Estilos para pantallas pequeñas (menores de 992px) */
-// @media (max-width: 991px) {
-//     .header {
-//         // Ajusta los estilos para pantallas pequeñas aquí
-//     }
-// }
+    .header__zonaNav--item {
+        font-size: 1.2rem;
+    }
+}
+
+// Estilos para pantallas medianas (entre 992px y 1199px) 
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .header{
+        background-color: lightblue;
+    }
+
+    .title_2 {
+        font-size: 2rem; 
+    }
+
+    .header__zonaNav--item {
+        font-size: 1rem;
+    }
+}
+
+// Estilos para pantallas pequeñas (menores de 992px)
+@media (max-width: 991px) {
+    .header{
+        background-color: lightgreen;
+    }
+
+    .title_2 {
+        font-size: 1.5rem; 
+    }
+
+    .header__zonaNav--item {
+        font-size: 0.8rem;
+    }
+}
