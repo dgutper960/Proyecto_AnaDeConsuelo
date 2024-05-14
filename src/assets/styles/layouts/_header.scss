@@ -218,7 +218,19 @@
         left: 50%; // Centra el menú horizontalmente 
         transform: translateX(-50%); // Corrige la posición para centrar exactamente 
       }
-  
+    
+      .menu-items a{
+        color: $color_logo_fondo;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1em;
+        padding: 0.5rem;
+      }
+    
+      .menu-items.active {
+        display: flex;
+      }
+      
     }
 
     .header__zonaTitulo {
@@ -236,11 +248,8 @@
         margin-top: 0.5rem;
         margin-left: 0.5rem;
 
-        .tit_2 {
-          font-size: 1.95rem;
-        }
-
       }
+
 
     }
     .header__zonaNav {
