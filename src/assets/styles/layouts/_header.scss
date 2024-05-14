@@ -3,7 +3,7 @@
   // eliminamos margenes y añadimos fuente por defecto
   font-family: $font_montserrat;
 
-  height: 12vh;
+  height: 13vh;
 
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -25,20 +25,28 @@
     display: flex;
     justify-content: space-evenly;
 
+    justify-items: center; 
+    align-items: center; 
+
     .header__zonaTitulo--logo {
 
 
       height: 12vh;
 
       a {
+        display: flex;
+        justify-items: center; 
+        align-items: center;  
+
         width: auto;
         height: 100%;
 
 
         img {
+
           display: flex;
           justify-items: center; 
-          align-items: center;
+          align-items: center; 
 
           width: auto;
           height: 95%;
@@ -88,7 +96,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      font-size: 0.85rem;
+      // font-size: 0.85rem;
       padding: 1.5rem;
       width: 8.5rem;
       height: 80%;
@@ -127,7 +135,7 @@
   }
 
   .header__zonaNav--item {
-    font-size: 1.2rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -165,7 +173,7 @@
       grid-column: 2 / 12;
 
       .header__zonaNav--item {
-        font-size: 0.75rem;
+        font-size: 0.90rem;
       }
     }
   }
@@ -174,6 +182,11 @@
 // Estilos para pantallas pequeñas (menores de 992px)
 @media (max-width: 991px) {
   .header {
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
   
     height: auto;
 
@@ -247,6 +260,10 @@
       .header__zonaTitulo--titulo{
         margin-top: 0.5rem;
         margin-left: 0.5rem;
+
+        .tit_2 {
+          font-size: 2rem;
+        }
 
       }
 
