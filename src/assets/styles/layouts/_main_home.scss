@@ -3,7 +3,7 @@ body {
 }
 
 .main__home {
-  background-color: bisque;
+
 
   width: 80vw;
   height: auto;
@@ -14,6 +14,8 @@ body {
   overflow: hidden;
 
   .main__imagesContainer {
+
+    // z-index: -100;
     display: flex;
     padding: 0;
     margin-top: 0;
