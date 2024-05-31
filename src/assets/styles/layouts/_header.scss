@@ -218,6 +218,8 @@
     
       .menu-items { // estilos menú desplegado
 
+        z-index: 10;
+
         display: none;
         flex-direction: column;
         // justify-content: center;
