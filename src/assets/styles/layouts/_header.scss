@@ -41,16 +41,30 @@
         width: auto;
         height: 100%;
 
-
-        img {
+        picture{
 
           display: flex;
           justify-items: center; 
           align-items: center; 
 
+
           width: auto;
           height: 95%;
+
+          img {
+
+            display: flex;
+            justify-items: center; 
+            align-items: center; 
+  
+            width: auto;
+            height: 95%;
+          }
+
         }
+
+
+
       }
     }
 
