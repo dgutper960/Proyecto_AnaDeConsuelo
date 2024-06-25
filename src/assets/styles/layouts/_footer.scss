@@ -1,23 +1,112 @@
-.footer{
+.footer {
+  margin-top: 15px;
 
+  display: flex;
+  flex-direction: column;
+
+  .footer__zonaRedes {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 
-    margin-top: 10px;
-    background-color: $color_logo_lineas;
-    color: $color_fuente_primaria;
-    text-align: center;
+    height: 3rem;
 
-    picture{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    background-color: rgba(0, 0, 0, 0.767);
 
-        img{
-            height: 2em;
-        }
+    a {
+      height: 70%;
+
+      img {
+        height: 90%;
+      }
     }
+  }
 
+  .footer__zonaCentral {
+    // Debe aplicar a sus hijos grid de 24 columnas
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    gap: 5px;
 
+    align-items: center;
+
+    background-color: $color_logo_lineas;
+    height: 15rem;
+
+    // Disponemos las subzonas de la zona central
+    .zonaCentral__nav {
+      grid-column: 3/10;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      height: 85%;
+      width: 100%;
+      border-right: 2px solid black;
+
+      background-color: aliceblue;
+
+      .zonaCentral__nav--navegacion {
+        background-color: lightpink;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .z{
+            background-color: lightgreen;
+            height: 100%;
+            width: 50%;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        // .z2{
+        //     background-color: lightgreen;
+        //     height: 100%;
+        //     width: 50%;
+
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     justify-content: center;    
+        // }
+
+      }
+
+      .zonaCentral__nav--alergenos {
+        background-color: gray;
+        width: 100%;
+        height: 50%;
+      }
+    }
+    .zonaCentral__hours {
+      grid-column: 10/16;
+
+      height: 85%;
+      width: 100%;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+
+      background-color: lightblue;
+    }
+    .zonaCentral__postal {
+      grid-column: 16/23;
+
+      height: 85%;
+      width: 100%;
+      border-left: 2px solid black;
+
+      background-color: azure;
+    }
+  }
+
+  .footer__zonaInfo {
+  }
 }
