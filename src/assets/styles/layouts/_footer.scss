@@ -36,7 +36,7 @@
 
     // Disponemos las subzonas de la zona central
     .zonaCentral__nav {
-      grid-column: 3/10;
+      grid-column: 3/9;
 
       display: flex;
       flex-direction: column;
@@ -65,18 +65,32 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            div{
+              height: 100%;
+              width: 80%;
+
+              background-color: lightsalmon;
+
+              a{
+
+                text-decoration: none;
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center ;
+
+                height: 80%;
+
+                border: 2px solid black;
+
+                font-size: 0.80rem;
+
+                background-color: lightcoral;
+              }
+            }
         }
-
-        // .z2{
-        //     background-color: lightgreen;
-        //     height: 100%;
-        //     width: 50%;
-
-        //     display: flex;
-        //     flex-direction: column;
-        //     align-items: center;
-        //     justify-content: center;    
-        // }
 
       }
 
@@ -84,10 +98,33 @@
         background-color: gray;
         width: 100%;
         height: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a{
+          height: 80%;
+          width: 80%;
+
+          text-decoration: none;
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center ;
+
+          border: 2px solid black;
+
+          font-size: 1rem;
+
+
+          background-color: lightcoral;
+        }
       }
     }
     .zonaCentral__hours {
-      grid-column: 10/16;
+      grid-column: 9/17;
 
       height: 85%;
       width: 100%;
@@ -95,9 +132,22 @@
       border-right: 2px solid black;
 
       background-color: lightblue;
+
+      display: flex;
+      flex-direction: column;
+
+      .zonaCentral__hours--logo{
+        height: 50%;
+        background-color: beige;
+      }
+
+      .zonaCentral__hours--horarios{
+        height: 100%;
+        background-color: bisque;
+      }
     }
     .zonaCentral__postal {
-      grid-column: 16/23;
+      grid-column: 17/23;
 
       height: 85%;
       width: 100%;
