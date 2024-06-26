@@ -4,10 +4,22 @@
   display: flex;
   flex-direction: column;
 
+  font-family: $font_montserrat;
+
+  a {
+    color: black;
+    text-decoration: none;
+    
+  }
+
+  h1, h2, h3{
+    margin: 0;
+  }
+
   .footer__zonaRedes {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
     height: 3rem;
@@ -15,6 +27,8 @@
     background-color: rgba(0, 0, 0, 0.767);
 
     a {
+      padding-left: 7em;
+      padding-right: 7em;
       height: 70%;
 
       img {
@@ -47,55 +61,51 @@
       width: 100%;
       border-right: 2px solid black;
 
-      background-color: aliceblue;
+      // background-color: aliceblue;
 
       .zonaCentral__nav--navegacion {
-        background-color: lightpink;
+        // background-color: lightpink;
         height: 50%;
         width: 100%;
         display: flex;
         flex-direction: row;
 
-        .z{
-            background-color: lightgreen;
+        .z {
+          // background-color: lightgreen;
+          height: 100%;
+          width: 50%;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          div {
             height: 100%;
-            width: 50%;
-            
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            width: 80%;
 
-            div{
-              height: 100%;
-              width: 80%;
+            // background-color: lightsalmon;
 
-              background-color: lightsalmon;
+            a {
+              display: flex;
+              align-items: center;
+              text-align: center;
+              justify-content: center;
 
-              a{
+              height: 80%;
 
-                text-decoration: none;
+              border: 2px solid black;
 
-                display: flex;
-                align-items: center;
-                text-align: center;
-                justify-content: center ;
+              font-size: 0.8rem;
 
-                height: 80%;
-
-                border: 2px solid black;
-
-                font-size: 0.80rem;
-
-                background-color: lightcoral;
-              }
+              // background-color: lightcoral;
             }
+          }
         }
-
       }
 
       .zonaCentral__nav--alergenos {
-        background-color: gray;
+        // background-color: gray;
         width: 100%;
         height: 50%;
 
@@ -103,23 +113,22 @@
         align-items: center;
         justify-content: center;
 
-        a{
+        a {
           height: 80%;
           width: 80%;
 
-          text-decoration: none;
+          
 
           display: flex;
           align-items: center;
           text-align: center;
-          justify-content: center ;
+          justify-content: center;
 
           border: 2px solid black;
 
           font-size: 1rem;
 
-
-          background-color: lightcoral;
+          // background-color: lightcoral;
         }
       }
     }
@@ -128,15 +137,15 @@
 
       height: 85%;
       width: 100%;
-      border-left: 2px solid black;
-      border-right: 2px solid black;
+      // border-left: 2px solid black;
+      // border-right: 2px solid black;
 
-      background-color: lightblue;
+      // background-color: lightblue;
 
       display: flex;
       flex-direction: column;
 
-      .zonaCentral__hours--logo{
+      .zonaCentral__hours--logo {
         height: 40%;
 
         display: flex;
@@ -144,38 +153,71 @@
         align-items: center;
         justify-content: center;
 
-        background-color: beige;
+        // background-color: beige;
 
-        img{
+        img {
           height: 3rem;
           padding-left: 10px;
           padding-right: 10px;
         }
 
-        h1{
+        h1 {
           margin: 0;
           font-family: $font_playball;
           font-size: 1.25em;
         }
       }
 
-      .zonaCentral__hours--horarios{
+      .zonaCentral__hours--horarios {
         height: 100%;
+        width: 100%;
 
-        background-color: bisque;
+        // background-color: bisque;
 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
-        margin-left: 30px;
-        margin-right: 15px;
+        // margin-left: 30px;
+        // margin-right: 15px;
 
-        h1{
-          font-size: 1.25em;
+        .a {
+          height: 100%;
+          width: 45%;
+
+          // border: 2px solid black;
+          // background-color: aqua;
+
+          h1 {
+            text-align: center;
+            font-size: 1rem;
+            padding: 0.5em;
+            margin: 0.25em;
+          }
+          h3 {
+            text-align: center;
+            margin: 0.25em;
+            font-size: 1em;
+          }
         }
-        
-        
+        .b {
+          height: 100%;
+          width: 55%;
+
+          border-left: 2px solid black;
+
+          h1 {
+            text-align: center;
+            font-size: 1em;
+            padding: 0.5em;
+            margin: 0.25em;
+          }
+          h3 {
+            text-align: center;
+            margin: 0.25em;
+            font-size: 1em;
+          }
+        }
       }
     }
     .zonaCentral__postal {
@@ -185,10 +227,51 @@
       width: 100%;
       border-left: 2px solid black;
 
-      background-color: azure;
+      text-align: center;
+
+      h1 {
+        padding: 0.5em;
+        margin: 0.25em;
+      }
+      h3 {
+        margin: 0.25em;
+      }
+
+      // background-color: azure;
     }
   }
 
   .footer__zonaInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    // height: 3rem;
+
+    background-color: $color_logo_fuentes_light;
+    border-bottom: .3em solid rgba(0, 0, 0, 0.767);
+    border-top: .3em solid rgba(0, 0, 0, 0.767);
+
+    .licencia{
+
+      display: flex;
+      flex-direction: row;
+      // align-content: center;
+      align-items: center;
+
+      height: 2rem;
+
+      img{
+        height: 1.5rem;
+      }
+      h1{
+      
+        padding-left: 1rem;
+
+      }
+
+      }
+    }
+
   }
-}
