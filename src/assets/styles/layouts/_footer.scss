@@ -164,7 +164,7 @@
         h1 {
           margin: 0;
           font-family: $font_playball;
-          font-size: 1.25em;
+          font-size: 1.5em;
         }
       }
 
@@ -199,6 +199,7 @@
             margin: 0.25em;
             font-size: 1em;
           }
+
         }
         .b {
           height: 100%;
@@ -249,7 +250,9 @@
 
     // height: 3rem;
 
-    background-color: $color_logo_fuentes_light;
+    //$color_logo_lineas
+
+    background-color: $color_logo_lineas;
     border-bottom: .3em solid rgba(0, 0, 0, 0.767);
     border-top: .3em solid rgba(0, 0, 0, 0.767);
 
